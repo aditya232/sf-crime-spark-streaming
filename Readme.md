@@ -1,3 +1,12 @@
+console-consumer
+<img src='console-consumer.png'/>
+
+spark job progress
+<img src='spark-job-progress.png'/>
+
+spark ui
+<img src='spark-ui.png'/>
+
 1. How did changing values on the SparkSession property parameters affect the throughput and latency of the data?
 
     `processedRowsPerSecond` in the query progress tracker was used to benchmark the throughput of the data. A backlog of unconsumed kafka messages was created and `processedRowsPerSecond` was measured.
